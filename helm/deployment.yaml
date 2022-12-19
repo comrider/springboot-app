@@ -1,0 +1,12 @@
+appName: springboot-app
+appImage: public.ecr.aws/z2t0b6v5/maven-artifact:latest
+appVersion: v1
+appReplicas: 4
+containerPort: 8085
+containerEnvVar:
+- name: PORT
+  value: "8085"
+portName: http
+protocol: TCP
+servicePort: 80
+serviceType: LoadBalancer
