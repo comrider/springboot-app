@@ -15,7 +15,7 @@ spec:
         app: springboot-app
     spec:
       containers:
-      - name: my-springboot-app
+      - name: springboot-app
         image: public.ecr.aws/z2t0b6v5/maven-artifact:latest
         imagePullPolicy: Always
         ports:
