@@ -1,4 +1,4 @@
-appName: test-app
+appName: springboot-app
 appImage: public.ecr.aws/z2t0b6v5/maven-artifact:latest
 appVersion: v1
 appReplicas: 1

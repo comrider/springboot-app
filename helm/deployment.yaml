@@ -1,6 +1,6 @@
 appName: springboot-app
 appImage: public.ecr.aws/z2t0b6v5/maven-artifact:latest
-appVersion: v1
+appVersion: 12 // this value has to be changed with sed. 
 appReplicas: 4
 containerPort: 8085
 containerEnvVar:
